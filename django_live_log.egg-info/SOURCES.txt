@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+django_live_log/__init__.py
+django_live_log/admin.py
+django_live_log/models.py
+django_live_log/tests.py
+django_live_log/urls.py
+django_live_log/views.py
+django_live_log.egg-info/PKG-INFO
+django_live_log.egg-info/SOURCES.txt
+django_live_log.egg-info/dependency_links.txt
+django_live_log.egg-info/top_level.txt
+django_live_log/templates/.DS_Store
+django_live_log/templates/django_live_log/main.html

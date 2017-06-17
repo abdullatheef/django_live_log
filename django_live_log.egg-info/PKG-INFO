@@ -1,0 +1,42 @@
+Metadata-Version: 1.1
+Name: django-live-log
+Version: 1.0
+Summary: Simple package for live streaming of file.
+Home-page: https://www.example.com/
+Author: Abdul Latheef
+Author-email: latheefvkpadi@gmail.com
+License: BSD License
+Description: =====
+        Django Live Log
+        =====
+        
+        django_live_log is a package which can see live stream of file, such as log file, etc.
+        
+        Quick start
+        -----------
+        
+        1. Add "django_live_log" to your INSTALLED_APPS setting like this::
+        
+            INSTALLED_APPS = [
+                ...
+                'django_live_log',
+            ]
+        
+        2. Include the django_live_log URLconf in your project urls.py like this::
+        
+            url(r'^dll/', include('django_live_log.urls')),
+        
+        3. Add "DLL_FILE" to settings.py
+        
+        4. Visit http://127.0.0.1:8000/dll/ to participate in the poll.
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: X.Y
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
