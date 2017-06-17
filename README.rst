@@ -4,6 +4,10 @@ Django Live Log
 
 django_live_log is a package which can see live stream of file, such as log file, etc.
 
+Install
+-----------
+    pip install django_live_log
+    
 Quick start
 -----------
 
