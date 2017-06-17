@@ -44,7 +44,9 @@ def log_streamer(request, from_=0, file_path=None):
 
 
 def dll(request):
-    return StreamingHttpResponse(log_streamer(request, request.GET.get('from', 1000), request.GET.get('file_path', "")))
+    response = StreamingHttpResponse(log_streamer(request, request.GET.get('from', 1000), request.GET.get('file_path', "")))
+    response['X-Accel-Buffering'] = "no"
+    return response
 
 def group_check(user):
     return user.groups.filter(
