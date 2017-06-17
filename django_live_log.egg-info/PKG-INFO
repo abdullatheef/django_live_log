@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: django-live-log
-Version: 1.1.1
+Version: 1.1.2
 Summary: Simple package for live streaming of file.
 Home-page: https://github.com/abdullatheef/django_live_log
 Author: Abdul Latheef
@@ -16,6 +16,7 @@ Description: =====
         ------------
         
             pip install django_live_log
+        
         
         Quick start
         -----------
