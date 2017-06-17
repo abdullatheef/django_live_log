@@ -9,6 +9,7 @@ Installation
 
     pip install django_live_log
 
+
 Quick start
 -----------
 
