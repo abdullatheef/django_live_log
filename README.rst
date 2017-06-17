@@ -4,6 +4,11 @@ Django Live Log
 
 django_live_log is a package which can see live stream of file, such as log file, etc.
 
+Installation
+------------
+
+    pip install django_live_log
+
 Quick start
 -----------
 
@@ -31,6 +36,11 @@ Options
       DLL_URL = "/myurl/"
       so dll wii serve at `domain.com/dll/myurl/`
 
+* DLL_GROUP_PERMISSION in settings.py
+    Group name or list of group names.
+    Usage:
+      DLL_GROUP_PERMISSION = "My group name" # or ["My group name1", "My group name2"]
+
 * from
     Start pointer reading from file.
     Usage:
@@ -41,6 +51,8 @@ Options
     Usage:
       domain.com/dll/myurl/?file_path=/var/log/myfile.log
     - Should have read permission
+
+
 
 
 

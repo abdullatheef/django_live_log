@@ -9,19 +9,18 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django_live_log',
-    version='1.0',
+    version='1.1.1',
     packages=find_packages(),
     include_package_data=True,
-    license='BSD License',  # example license
+    license='MIT',  # example license
     description='Simple package for live streaming of file.',
     long_description=README,
-    url='https://www.example.com/',
+    url='https://github.com/abdullatheef/django_live_log',
     author='Abdul Latheef',
     author_email='latheefvkpadi@gmail.com',
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
-        'Framework :: Django :: X.Y',  # replace "X.Y" as appropriate
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',  # example license
         'Operating System :: OS Independent',
