@@ -26,6 +26,8 @@ Quick start
 
 3. Add "DLL_FILE" to settings.py
 
+    DLL_FILE = '/var/log/myfile.log' (should have read permission)
+
 4. Visit http://127.0.0.1:8000/dll/ to participate in the poll.
 
 
