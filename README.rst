@@ -24,7 +24,7 @@ Quick start
 
     url(r'^dll/', include('django_live_log.urls')),
 
-3. Add "DLL_FILE" to settings.py
+3. Add "DLL_FILE" to settings.py::
 
     DLL_FILE = '/var/log/myfile.log' (should have read permission)
 
