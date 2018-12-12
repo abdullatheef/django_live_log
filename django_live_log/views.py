@@ -18,7 +18,7 @@ def log_streamer(request, from_=0, file_path=None):
                     result = f.read()
                     last = f.tell()
                     t = loader.get_template('django_live_log/main.html')
-                    yield t.render(Context({"result": result}))
+                    yield t.render({"result": result})
                 except IOError:
                     start += 50
         reset = 0
